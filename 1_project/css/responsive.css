@@ -1,0 +1,90 @@
+/*PC*/
+@media (min-width: 1024px){
+  
+}
+/*End PC*/
+
+
+
+/*mobie*/
+@media (min-width: 740px) and (max-width: 1023px){
+  
+}
+/*End Tablet*/
+
+
+
+
+/*mobie*/
+@media (max-width: 740px){
+	#header{
+   	overflow: hidden; 
+
+	}
+	#header .search-icon {
+		display: none;
+	}
+	#header .menu-mobie-btn{
+		display: block;
+	}
+	.nav{
+		display: block;
+	}
+
+	.nav li{
+		display: block;
+	}
+	.nav li a{
+		display: block;
+	}
+	.nav > li:first-child{
+		display: inline-block;
+	}
+	.nav .subnav{
+		position: static; 
+		width: 100%;
+	}
+
+	/*team*/
+	.member-team{
+		width: 100%; 
+	}
+	.member-team img{
+		width: 70%; 
+	}
+	/*tour*/
+	.box-location{
+		width: 100%;
+		padding: 10px;
+	}
+
+	/*tickets*/
+.location .buy-ticker{
+	width: 100%;
+}
+
+	/*contact*/
+	.contact-info{
+		margin-bottom: 20px ;
+	}
+	.input-contact,
+	.w-mobie,
+	.contact-info{
+		width: 100%;
+	}
+	.input-contact{
+		/*margin-left: 16px;*/
+	}
+	.input-mb{
+		margin: 0px;
+	} 
+	.width-btn{
+		width: 100%; 
+		padding-left: 8px;
+		padding-right:8px  ;
+	}
+	.width-btn #btn-submit{
+		width: 100%; 
+	}
+	
+}

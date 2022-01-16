@@ -1,0 +1,51 @@
+/*PC*/
+@media (min-width: 1024px){
+  
+}
+/*End PC*/
+
+
+
+/*mobie*/
+@media (min-width: 425px) and (max-width: 768px){
+	.hello{
+		padding-top: 15%;
+	}
+  .cv{
+  	flex-direction: column;
+  }
+  .cv__description{
+  	text-align: center;
+  	margin-bottom: 30px;
+  }
+  .chart{
+  	width: 100%;
+  }
+  .list__services .list__service{
+  	width: 100%;
+  	margin: 20px 0;
+  }
+  .events .event{
+  	width: 48%;
+  }
+  .say__members .member{
+  	width: 100%;
+  }
+  .news_item{
+  	width: 100%;
+  	margin: 15px 0;
+  }
+  .event.contact__item{
+  	width: 100%; 
+  }
+  .form__main{
+  	width: 80%;
+  }
+  .form__main .form__input input{
+  	width: 100%;
+  	margin: 0 0 25px 0;
+  }
+/*End Tablet*/
+
+
+
